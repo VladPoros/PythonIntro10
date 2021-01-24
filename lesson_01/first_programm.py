@@ -31,4 +31,33 @@ a = 3.14
 #   2.23 * 10 ^ -308            1.79 * 10 ^ +308
 b = 3 ** 10000
 print(b)
-c = b + 0.1
+# c = b + 0.1
+
+# complex
+print(type(4+6j))
+
+# str
+s = 'Hello World!'
+s = "Hello World!"
+s = '''
+eroiugroqjtg    qwe
+gehqgj[qewotgjf'wq  
+qegjh;epqjg
+'''
+
+s = """
+dflfshg;fdjfvc 
+f;gjabv;fdjgvaerfdf0O954286t5453
+fdglkjhnkfdgs
+"""
+
+# ESCAPE
+"""
+\n          new line
+\t          tab      
+\b          backspace
+\'          '
+\"          "
+\\          \
+"""
+print('Process \\finished\\')
